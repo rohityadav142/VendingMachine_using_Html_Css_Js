@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    background-image: url('https://c0.wallpaperflare.com/preview/311/583/748/ronn-sushi-storefront-at-night.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 50px;
+}
+
+.container {
+    max-width: 750px; /* Increased width */
+    margin: auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 100px;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.product-display {
+    margin-bottom: 20px;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 15px;
+    background: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+}
+
+.product:hover {
+    background: #dfe6e9;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px; /* Space above buttons */
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.user-details {
+    margin-bottom: 20px;
+
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px; /* Space below input fields */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #bdc3c7;
+}
+
+.result, #message {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+/* Spacing for buttons */
+#purchase {
+    margin-top: 20px; /* Space above purchase button */
+}
+
+#cancel {
+    margin-top: 20px; /* Space above cancel button */
+    float: right; /* Align the button to the right */
+}
+.user-details h2 {
+    text-align: center; /* Center the heading */
+    color: #2c3e50; /* Match the color with other headings */
+    margin-top: 20px; /* Space above the heading */
+    margin-bottom: 10px; /* Space below the heading */
+}
